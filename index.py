@@ -48,8 +48,7 @@ def license():
         return jsonify({'result': 'success', 'msg': '라이선스가 검증되었습니다.'})
     except:
         return jsonify({'result': 'fail', 'msg': '알 수 없는 오류가 발생하였습니다. 관리자에게 문의해주세요.'})
-#아니 솔직히 이거 왜 작동하는지 모르겠음 
-#그리고 무엇보다 이 코드 굉장히 비효율적인게 api면서 비동기 처리도 안되있음 ㅋ
+
 
 
 if __name__ == '__main__':
